@@ -2,7 +2,8 @@
 
 angular.module('blogList').
     component('blogList', {
-      template: "<div class=''><h1 class='new-class'>{{title}}</h1><button ng-Click='someClickTest()'>Click Me</button></div>",
+      //template: "<div class=''><h1 class='new-class'>{{title}}</h1><button ng-Click='someClickTest()'>Click Me</button></div>",
+      templateUrl: "/templates/blog-list.html",
       controller: function($scope){
           $scope.title = 'Hi There!'
           $scope.clicks = 0
