@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="./js/app/app.module.js"></script>
-    <script src="./js/app/app.config.js"></script>
-    <script src="./js/app/blog-list/blog-list.module.js"></script>
-    <script src="./js/app/blog-list/blog-list.component.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-resource.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <script src="/js/app/app.module.js"></script>
+    <script src="/js/app/app.config.js"></script>
+    <script src="/js/app/blog-list/blog-list.module.js"></script>
+    <script src="/js/app/blog-list/blog-list.component.js"></script>
     <style>
       .new-class {
         font-size: 72px;
@@ -24,7 +26,7 @@
   </head>
   <body>
 
-    <blog-list></blog-list>
+    <ng-view></ng-view>
 
   </body>
 </html>
